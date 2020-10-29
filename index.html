@@ -6,42 +6,103 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <style>
+        .table thead th {font-weight: normal; font-size: 13px; color: #888; border-bottom: 0 none; padding-left: 15px; padding-right: 15px; padding-top: 10px; padding-bottom: 10px;}
+        .table td {vertical-align: middle; padding-left: 15px; padding-right: 15px; padding-top: 5px; padding-bottom: 5px;}
+        .icon {width: 32px; vertical-align: middle; margin-right: 8px;}
+        .card-header {border-bottom: 0 none;}
+    </style>
 </head>
 <body>
 
 <div class="container">
 <div class="card mt-5">
-  <div class="card-header">Featured</div>
-<table class="table table-hover" style="margin-bottom: 0">
+  <div class="card-header">Расписание прогулок <strong>23 октября, вторник</strong></div>
+<table class="table table-sm table-hover" style="margin-bottom: 0">
   <thead>
     <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="col">Название прогулки</th>
+      <th scope="col" class="text-center">Время отправления</th>
+      <th scope="col">Причал</th>
+      <th scope="col"></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <td><img class="icon" src="./img/icon-boat.svg" alt="" /> <a href="#">Теплоход "Кармэл"</a></td>
+      <td class="text-center">12:30</td>
+      <td>Международная выставка</td>
+      <td class="text-right"><a href="#" class="btn btn-sm btn-outline-primary">Купить</a></td>
     </tr>
     <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
+      <td><img class="icon" src="./img/icon-boat.svg" alt="" /> <a href="#">Теплоход "Прага"</a></td>
+      <td class="text-center">12:30</td>
+      <td>Киевский вокзал</td>
+      <td class="text-right"><a href="#" class="btn btn-sm btn-outline-primary">Купить</a></td>
     </tr>
     <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
+      <td><img class="icon" src="./img/icon-boat.svg" alt="" /> <a href="#">Теплоход "Вдохновение"</a></td>
+      <td class="text-center">12:30</td>
+      <td>Большой Устьинский мост</td>
+      <td class="text-right"><a href="#" class="btn btn-sm btn-outline-primary">Купить</a></td>
+    </tr>
+    <tr>
+      <td><img class="icon" src="./img/icon-boat.svg" alt="" /> <a href="#">Теплоход "River Palace"</a></td>
+      <td class="text-center">12:30</td>
+      <td>Международная выставка</td>
+      <td class="text-right"><a href="#" class="btn btn-sm btn-outline-primary">Купить</a></td>
+    </tr>
+    <tr>
+      <td><img class="icon" src="./img/icon-boat.svg" alt="" /> <a href="#">Теплоход "Кармэл"</a></td>
+      <td class="text-center">14:30</td>
+      <td>Международная выставка</td>
+      <td class="text-right"><a href="#" class="btn btn-sm btn-outline-primary">Купить</a></td>
+    </tr>
+    <tr>
+      <td><img class="icon" src="./img/icon-boat.svg" alt="" /> <a href="#">Теплоход "Прага"</a></td>
+      <td class="text-center">14:30</td>
+      <td>Киевский вокзал</td>
+      <td class="text-right"><a href="#" class="btn btn-sm btn-outline-primary">Купить</a></td>
+    </tr>
+    <tr>
+      <td><img class="icon" src="./img/icon-boat.svg" alt="" /> <a href="#">Теплоход "Вдохновение"</a></td>
+      <td class="text-center">14:30</td>
+      <td>Большой Устьинский мост</td>
+      <td class="text-right"><a href="#" class="btn btn-sm btn-outline-primary">Купить</a></td>
+    </tr>
+    <tr>
+      <td><img class="icon" src="./img/icon-boat.svg" alt="" /> <a href="#">Теплоход "River Palace"</a></td>
+      <td class="text-center">16:30</td>
+      <td>Международная выставка</td>
+      <td class="text-right"><a href="#" class="btn btn-sm btn-outline-primary">Купить</a></td>
+    </tr>
+    <tr>
+      <td><img class="icon" src="./img/icon-boat.svg" alt="" /> <a href="#">Теплоход "Кармэл"</a></td>
+      <td class="text-center">16:30</td>
+      <td>Международная выставка</td>
+      <td class="text-right"><a href="#" class="btn btn-sm btn-outline-primary">Купить</a></td>
+    </tr>
+    <tr>
+      <td><img class="icon" src="./img/icon-boat.svg" alt="" /> <a href="#">Теплоход "Прага"</a></td>
+      <td class="text-center">16:30</td>
+      <td>Киевский вокзал</td>
+      <td class="text-right"><a href="#" class="btn btn-sm btn-outline-primary">Купить</a></td>
+    </tr>
+    <tr>
+      <td><img class="icon" src="./img/icon-boat.svg" alt="" /> <a href="#">Теплоход "Вдохновение"</a></td>
+      <td class="text-center">16:30</td>
+      <td>Большой Устьинский мост</td>
+      <td class="text-right"><a href="#" class="btn btn-sm btn-outline-primary">Купить</a></td>
+    </tr>
+    <tr>
+      <td><img class="icon" src="./img/icon-boat.svg" alt="" /> <a href="#">Теплоход "River Palace"</a></td>
+      <td class="text-center">19:00</td>
+      <td>Международная выставка</td>
+      <td class="text-right"><a href="#" class="btn btn-sm btn-outline-primary">Купить</a></td>
     </tr>
   </tbody>
 </table>
-<div class="card-footer">Featured</div>
+<div class="card-footer">Все рейсы: &nbsp; <u>на сегодня</u> &nbsp; <u>на завтра</u></div>
 </div>
 </div>
 

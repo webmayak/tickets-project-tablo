@@ -2,107 +2,687 @@
 <html>
 <head>
     <title></title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <style>
-        .table thead th {font-weight: normal; font-size: 13px; color: #888; border-bottom: 0 none; padding-left: 15px; padding-right: 15px; padding-top: 10px; padding-bottom: 10px;}
-        .table td {vertical-align: middle; padding-left: 15px; padding-right: 15px; padding-top: 5px; padding-bottom: 5px;}
-        .icon {width: 32px; vertical-align: middle; margin-right: 8px;}
-        .card-header {border-bottom: 0 none;}
-    </style>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
-<div class="container">
-<div class="card mt-5">
-  <div class="card-header">Расписание прогулок <strong>23 октября, вторник</strong></div>
-<table class="table table-sm table-hover" style="margin-bottom: 0">
-  <thead>
-    <tr>
-      <th scope="col">Название прогулки</th>
-      <th scope="col" class="text-center">Время отправления</th>
-      <th scope="col">Причал</th>
-      <th scope="col"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><img class="icon" src="./img/icon-boat.svg" alt="" /> <a href="#">Теплоход "Кармэл"</a></td>
-      <td class="text-center">12:30</td>
-      <td>Международная выставка</td>
-      <td class="text-right"><a href="#" class="btn btn-sm btn-outline-primary">Купить</a></td>
-    </tr>
-    <tr>
-      <td><img class="icon" src="./img/icon-boat.svg" alt="" /> <a href="#">Теплоход "Прага"</a></td>
-      <td class="text-center">12:30</td>
-      <td>Киевский вокзал</td>
-      <td class="text-right"><a href="#" class="btn btn-sm btn-outline-primary">Купить</a></td>
-    </tr>
-    <tr>
-      <td><img class="icon" src="./img/icon-boat.svg" alt="" /> <a href="#">Теплоход "Вдохновение"</a></td>
-      <td class="text-center">12:30</td>
-      <td>Большой Устьинский мост</td>
-      <td class="text-right"><a href="#" class="btn btn-sm btn-outline-primary">Купить</a></td>
-    </tr>
-    <tr>
-      <td><img class="icon" src="./img/icon-boat.svg" alt="" /> <a href="#">Теплоход "River Palace"</a></td>
-      <td class="text-center">12:30</td>
-      <td>Международная выставка</td>
-      <td class="text-right"><a href="#" class="btn btn-sm btn-outline-primary">Купить</a></td>
-    </tr>
-    <tr>
-      <td><img class="icon" src="./img/icon-boat.svg" alt="" /> <a href="#">Теплоход "Кармэл"</a></td>
-      <td class="text-center">14:30</td>
-      <td>Международная выставка</td>
-      <td class="text-right"><a href="#" class="btn btn-sm btn-outline-primary">Купить</a></td>
-    </tr>
-    <tr>
-      <td><img class="icon" src="./img/icon-boat.svg" alt="" /> <a href="#">Теплоход "Прага"</a></td>
-      <td class="text-center">14:30</td>
-      <td>Киевский вокзал</td>
-      <td class="text-right"><a href="#" class="btn btn-sm btn-outline-primary">Купить</a></td>
-    </tr>
-    <tr>
-      <td><img class="icon" src="./img/icon-boat.svg" alt="" /> <a href="#">Теплоход "Вдохновение"</a></td>
-      <td class="text-center">14:30</td>
-      <td>Большой Устьинский мост</td>
-      <td class="text-right"><a href="#" class="btn btn-sm btn-outline-primary">Купить</a></td>
-    </tr>
-    <tr>
-      <td><img class="icon" src="./img/icon-boat.svg" alt="" /> <a href="#">Теплоход "River Palace"</a></td>
-      <td class="text-center">16:30</td>
-      <td>Международная выставка</td>
-      <td class="text-right"><a href="#" class="btn btn-sm btn-outline-primary">Купить</a></td>
-    </tr>
-    <tr>
-      <td><img class="icon" src="./img/icon-boat.svg" alt="" /> <a href="#">Теплоход "Кармэл"</a></td>
-      <td class="text-center">16:30</td>
-      <td>Международная выставка</td>
-      <td class="text-right"><a href="#" class="btn btn-sm btn-outline-primary">Купить</a></td>
-    </tr>
-    <tr>
-      <td><img class="icon" src="./img/icon-boat.svg" alt="" /> <a href="#">Теплоход "Прага"</a></td>
-      <td class="text-center">16:30</td>
-      <td>Киевский вокзал</td>
-      <td class="text-right"><a href="#" class="btn btn-sm btn-outline-primary">Купить</a></td>
-    </tr>
-    <tr>
-      <td><img class="icon" src="./img/icon-boat.svg" alt="" /> <a href="#">Теплоход "Вдохновение"</a></td>
-      <td class="text-center">16:30</td>
-      <td>Большой Устьинский мост</td>
-      <td class="text-right"><a href="#" class="btn btn-sm btn-outline-primary">Купить</a></td>
-    </tr>
-    <tr>
-      <td><img class="icon" src="./img/icon-boat.svg" alt="" /> <a href="#">Теплоход "River Palace"</a></td>
-      <td class="text-center">19:00</td>
-      <td>Международная выставка</td>
-      <td class="text-right"><a href="#" class="btn btn-sm btn-outline-primary">Купить</a></td>
-    </tr>
-  </tbody>
-</table>
-<div class="card-footer">Все рейсы: &nbsp; <u>на сегодня</u> &nbsp; <u>на завтра</u></div>
+<div style="width: 1240px; margin: 0 auto;">
+  <div class="ti-tickets-widget">
+<div class="tablo bootstrap">
+    <div class="card mt-5">
+        <div class="card-header">Расписание прогулок</div>
+            <table class="table table-sm table-hover">
+                <thead>
+                    <tr><th colspan="4" style="padding: 0 !important;">
+                        <div style="padding: 10px 0; margin: 0 10px 8px; white-space: nowrap; overflow-y: auto;">
+                            <a class="time-pill active" data-date="all" style="vertical-align: bottom;">
+                                <span class="event-date">Все события</span>
+                                <span class="event-date-relative">любая дата</span>
+                            </a>
+                                                            <a class="time-pill" data-date="2021-04-28">
+                                    <span class="event-date">28 апрель, ср</span>
+                                    <span class="event-date-relative">10 часов назад</span>
+                                </a>
+                                                    </div>
+                    </th>
+                </tr></thead>
+                <tbody>
+                </tbody><colgroup>
+                    <col style="width: 8%;">
+                    <col style="width: auto">
+                    <col style="width: 25%">
+                    <col style="width: 10%">
+                </colgroup>
+                                    <tbody><tr data-date="2021-04-28">
+                        <th colspan="4" style="padding: 10px;">
+                            28 апрель, ср                            <span class="event-date-relative" style="display: inline-block;">10 часов назад</span>
+                        </th>
+                    </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                10:00                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=378&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Музей Москва-Сити, 56 этаж, ДК Империя"
+                                </a>
+                            </td>
+                            <td>
+                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=378&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=76539&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                10:20                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=347&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Варлаам Керетский, Москва Ривер, Столица-1, Москва-84"
+                                </a>
+                            </td>
+                            <td>
+                                                                    Зарядье                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=347&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=77647&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                10:30                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=379&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Вдохновение, Прага, Азимут, Свобода, Князь Меньшиков, Мираж, Раритет и Парадокс"
+                                </a>
+                            </td>
+                            <td>
+                                                                    Международная выставка                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=379&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=77300&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                11:00                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=378&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Музей Москва-Сити, 56 этаж, ДК Империя"
+                                </a>
+                            </td>
+                            <td>
+                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=378&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=76540&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                11:30                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=283&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Ривер Лаунж (River Lounge)"
+                                </a>
+                            </td>
+                            <td>
+                                                                    Киевский вокзал                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=283&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=77471&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                11:50                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=385&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Варлаам Керетский, Москва Ривер, Столица-1, Москва-84"
+                                </a>
+                            </td>
+                            <td>
+                                                                    Международная выставка                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=385&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=77771&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                12:00                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=370&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Смотровая площадка на крыше небоскреба Москва-сити.  "ВЫШЕ ТОЛЬКО ЛЮБОВЬ""
+                                </a>
+                            </td>
+                            <td>
+                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=370&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=72341&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                13:00                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=17&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Прага, Вдохновение"
+                                </a>
+                            </td>
+                            <td>
+                                                                    Международная выставка                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=17&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=66710&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                13:20                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=347&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Варлаам Керетский, Москва Ривер, Столица-1, Москва-84"
+                                </a>
+                            </td>
+                            <td>
+                                                                    Зарядье                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=347&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=77678&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                14:00                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=370&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Смотровая площадка на крыше небоскреба Москва-сити.  "ВЫШЕ ТОЛЬКО ЛЮБОВЬ""
+                                </a>
+                            </td>
+                            <td>
+                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=370&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=72343&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                14:50                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=385&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Варлаам Керетский, Москва Ривер, Столица-1, Москва-84"
+                                </a>
+                            </td>
+                            <td>
+                                                                    Международная выставка                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=385&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=77805&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                15:00                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=282&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Ривер Палас (River Palace)"
+                                </a>
+                            </td>
+                            <td>
+                                                                    Киевский вокзал                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=282&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=71938&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                15:30                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=172&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Августина"
+                                </a>
+                            </td>
+                            <td>
+                                                                    Международная выставка                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=172&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=76591&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                15:45                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=179&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Соболь"
+                                </a>
+                            </td>
+                            <td>
+                                                                    Международная выставка                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=179&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=68471&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                16:00                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=17&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Прага, Вдохновение"
+                                </a>
+                            </td>
+                            <td>
+                                                                    Международная выставка                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=17&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=66711&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                16:20                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=347&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Варлаам Керетский, Москва Ривер, Столица-1, Москва-84"
+                                </a>
+                            </td>
+                            <td>
+                                                                    Зарядье                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=347&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=77709&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                17:00                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=370&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Смотровая площадка на крыше небоскреба Москва-сити.  "ВЫШЕ ТОЛЬКО ЛЮБОВЬ""
+                                </a>
+                            </td>
+                            <td>
+                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=370&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=72346&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                17:50                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=385&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Варлаам Керетский, Москва Ривер, Столица-1, Москва-84"
+                                </a>
+                            </td>
+                            <td>
+                                                                    Международная выставка                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=385&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=77839&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                18:00                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=370&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Смотровая площадка на крыше небоскреба Москва-сити.  "ВЫШЕ ТОЛЬКО ЛЮБОВЬ""
+                                </a>
+                            </td>
+                            <td>
+                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=370&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=72347&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                18:15                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=179&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Соболь"
+                                </a>
+                            </td>
+                            <td>
+                                                                    Международная выставка                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=179&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=68639&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                19:00                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=17&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Прага, Вдохновение"
+                                </a>
+                            </td>
+                            <td>
+                                                                    Международная выставка                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=17&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=66712&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                19:20                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=347&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Варлаам Керетский, Москва Ривер, Столица-1, Москва-84"
+                                </a>
+                            </td>
+                            <td>
+                                                                    Зарядье                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=347&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=77740&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                19:30                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=283&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Ривер Лаунж (River Lounge)"
+                                </a>
+                            </td>
+                            <td>
+                                                                    Киевский вокзал                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=283&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=77474&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                20:00                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=370&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Смотровая площадка на крыше небоскреба Москва-сити.  "ВЫШЕ ТОЛЬКО ЛЮБОВЬ""
+                                </a>
+                            </td>
+                            <td>
+                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=370&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=72349&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                20:30                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=172&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Августина"
+                                </a>
+                            </td>
+                            <td>
+                                                                    Международная выставка                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=172&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=76631&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                20:45                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=179&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Соболь"
+                                </a>
+                            </td>
+                            <td>
+                                                                    Международная выставка                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=179&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=68804&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                20:50                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=385&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Варлаам Керетский, Москва Ривер, Столица-1, Москва-84"
+                                </a>
+                            </td>
+                            <td>
+                                                                    Международная выставка                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=385&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=77873&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                21:00                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=370&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Смотровая площадка на крыше небоскреба Москва-сити.  "ВЫШЕ ТОЛЬКО ЛЮБОВЬ""
+                                </a>
+                            </td>
+                            <td>
+                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=370&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=72350&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                22:00                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=370&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Смотровая площадка на крыше небоскреба Москва-сити.  "ВЫШЕ ТОЛЬКО ЛЮБОВЬ""
+                                </a>
+                            </td>
+                            <td>
+                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=370&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=72351&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                22:30                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=380&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Вдохновение, Прага, Азимут, Свобода, Князь Меньшиков, Мираж, Раритет и Парадокс"
+                                </a>
+                            </td>
+                            <td>
+                                                                    Устьинский мост                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=380&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=77341&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                23:00                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=380&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Вдохновение, Прага, Азимут, Свобода, Князь Меньшиков, Мираж, Раритет и Парадокс"
+                                </a>
+                            </td>
+                            <td>
+                                                                    Устьинский мост                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=380&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=77342&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                            <tr data-date="2021-04-28">
+                            <td>
+                                23:30                            </td>
+                            <td>
+                                <svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 362" style="enable-background:new 0 0 362 362;" xml:space="preserve">
+                                    <path d="M361.6,178.8c-1.6-2-4-3.6-6.4-3.6h-74.8l-50.4-58c-1.2-1.2-2.8-2-4.4-2h-60c0-0.4,0-0.8-0.4-1.2l-22.4-42.4c-1.2-2-3.2-3.2-5.2-3.2h-30c-3.2,0-6,2.8-6,6v40.4h-24c-2,0-4,1.2-5.2,2.8l-34,57.2H20.8c-3.2,0-6,2.4-6,6c0,1.2-0.4,24.4,9.2,45.2c-4.8-2-10.8-3.2-18-3.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c0.8,0,1.6,0,2.4,0c1.2,0,2,0,3.2,0c0.8,0,1.6-0.4,2.4-0.8c12.4-1.6,19.6-7.6,26.4-12.4c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8 c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6s-2.8-6-6-6c-4.4,0-8-0.4-11.2-1.6l57.6-60C362,183.6,362.4,180.8,361.6,178.8z M142.4,97.2l9.6,18.4h-38.4V97.2H142.4z M113.2,80.8h20.4l2.4,4.4h-22.8V80.8z M81.2,127.2 h141.6l18.8,21.6H68L81.2,127.2z M61.2,160.8H252l12.8,14.4H52.4L61.2,160.8z M290.8,240c-1.6-1.2-3.2-2.4-4.8-3.6c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-6.8,5.2-12.8,10-24.4,10.4c-10.4-0.4-18.8-4.4-25.6-11.2c-13.6-14-16.8-37.6-17.6-48.4h314.4L290.8,240z"></path>
+                                    <path d="M314,281.6c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.6,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-17.2,0-26.4,7.2-34.4,13.2c-7.2,5.6-13.6,10.8-27.2,10.8c-13.2,0-19.6-4.8-27.2-10.8c-8-6-16.8-13.2-34.4-13.2c-3.2,0-6,2.8-6,6s2.8,6,6,6c13.2,0,19.6,4.8,27.2,10.8c8,6.4,17.2,13.2,34.4,13.2s26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c17.6,0,26.4-7.2,34.4-13.2c7.2-5.6,13.6-10.8,27.2-10.8c13.2,0,19.6,4.8,27.2,10.8c8,6,16.8,13.2,34.4,13.2c3.2,0,6-2.8,6-6S317.2,281.6,314,281.6z"></path>
+                                </svg>
+                                <a href="javascript:;" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="ajax" data-src="https://account.teplohod.info/widget/embed/single-view?id=380&amp;widget_id=3116" class="ti-tickets-load-content">
+                                    Теплоход "Вдохновение, Прага, Азимут, Свобода, Князь Меньшиков, Мираж, Раритет и Парадокс"
+                                </a>
+                            </td>
+                            <td>
+                                                                    Устьинский мост                                                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-sm btn-outline-primary" data-fancyboxtkt="1" data-toolbar="0" data-infobar="0" data-arrows="0" data-touch="0" data-animationeffect="0" data-keyboard="0" data-type="iframe" data-src="https://account.teplohod.info/order/event-order?widget_id=3116&amp;event_id=380&amp;step=2&amp;lang=ru-RU&amp;sell_channel=1&amp;roistat_id=&amp;event_time_id=77343&amp;coupon_id=&amp;full_name=&amp;refferer=https%3A%2F%2Fteplohod.info%2F&amp;email=&amp;phone=&amp;troika_card_number=">
+                                   Купить
+                                </a>
+                            </td>
+                        </tr>
+                                                    </tbody>
+            </table>
+        </div>
+    </div>
 </div>
 </div>
 
